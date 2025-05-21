@@ -84,45 +84,48 @@
 />
 
 <UseCases
-	generating
 	title="Use Cases"
 	subtitle="Real-world applications for your business needs"
 	useCases={[
 		{
-			title: "Streamlined Workflows",
-			description:
-				"Automate repetitive tasks and connect systems to improve productivity with our industry-leading 87% time savings.",
-			image:
-				"https://images.unsplash.com/photo-1552664730-d307ca884978?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=2940&q=80",
+			title: "AI-powered technician dispatch",
+			description: "Assign the best tech to every call, boost revenue, and shorten response times automatically—all from one board.",
+			image: "/generated/image-a-diverse-group-of-hvac-and-plumbing-dis.webp",
 			link: {
-				href: "/use-cases/workflows",
+				href: "/use-cases/ai-dispatch",
 				label: "Learn more"
 			}
 		},
 		{
-			title: "Data Analysis",
-			description:
-				"Extract meaningful insights from your data with powerful analytical tools backed by proprietary AI algorithms that are 3x more accurate than competitors.",
-			image:
-				"https://images.unsplash.com/photo-1573496359142-b8d87734a5a2?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=2488&q=80",
+			title: "Scale teams without extra hires",
+			description: "Let one dispatcher manage up to 20+ techs confidently with automated scheduling, escalations, and transparency.",
+			image: "/generated/image-a-dispatcher-in-a-modern-office-talking-.webp",
 			link: {
-				href: "/use-cases/data-analysis",
-				label: "Explore analytics"
+				href: "/use-cases/scale-ops",
+				label: "Learn more"
 			}
 		},
 		{
-			title: "Secure Collaboration",
-			description:
-				"Work together seamlessly while maintaining strict data privacy standards with our zero-knowledge architecture and military-grade encryption.",
-			image:
-				"https://images.unsplash.com/photo-1522202176988-66273c2fd55f?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=2940&q=80",
+			title: "Exceptional customer experiences",
+			description: "Proactively notify customers, speed up resolutions, and keep satisfaction high without extra manual work.",
+			image: "/generated/image-a-cheerful-interaction-between-a-home-se.webp",
 			link: {
-				href: "/use-cases/collaboration",
-				label: "See security features"
+				href: "/use-cases/customer-experience",
+				label: "Learn more"
 			}
 		}
 	]}
 />
 
-<AboutTeaser generating />
-<CallToAction generating />
+<AboutTeaser />
+<CallToAction
+  title="See how easy dispatching can be"
+  subtitle="Book a free demo and boost your team's revenue and efficiency"
+  description="Probook AI helps home service companies send the best technician to every job—automatically. Free up your dispatchers, increase sales, and deliver better service. Ready for smarter dispatching?"
+  imageSrc="/generated/image-a-cheerful-home-services-dispatcher-with.webp"
+  callsToAction={[{
+    href: "/demo",
+    label: "Book a demo",
+    variant: "primary"
+  }]}
+/>

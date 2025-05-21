@@ -15,35 +15,42 @@
 <Pricing />
 
 <Testimonials
-	testimonials={[
-		{
-			name: "Jane Smith",
-			position: "CTO",
-			company: "Tech Innovations",
-			quote:
-				"This solution transformed our workflow and increased productivity by 35% in just two months.",
-			image:
-				"https://images.unsplash.com/photo-1494790108377-be9c29b29330?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=774&q=80"
-		},
-		{
-			name: "John Doe",
-			position: "Director of Operations",
-			company: "Global Solutions",
-			quote:
-				"The implementation was seamless and the support team was exceptional throughout the process.",
-			image:
-				"https://images.unsplash.com/photo-1560250097-0b93528c311a?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=774&q=80"
-		},
-		{
-			name: "Sarah Johnson",
-			position: "Product Manager",
-			company: "Future Systems",
-			quote:
-				"We've tried multiple solutions, but this is the only one that perfectly addressed all our requirements.",
-			image:
-				"https://images.unsplash.com/photo-1573496359142-b8d87734a5a2?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&estimonial-3.jpg"
-		}
-	]}
+  testimonials={[
+    {
+      name: "Jose Gutierrez",
+      position: "Dispatcher",
+      company: "Blue Pipe Plumbing",
+      quote:
+        "Probook AI paid for itself in the first month. I went from being overwhelmed every morning to having total control. Our canceled jobs dropped by half.",
+      image: "/generated/image-professional-headshot-of-jose-gutierrez-.webp"
+    },
+    {
+      name: "Latasha Williams",
+      position: "Operations Manager",
+      company: "Pure Comfort HVAC",
+      quote:
+        "The ROI was immediate — our revenue is up 15% and my team loves how easy it is. Training our newer dispatchers took hours instead of weeks.",
+      image: "/generated/image-professional-headshot-of-latasha-william.webp"
+    },
+    {
+      name: "Dmitri Antonov",
+      position: "Owner",
+      company: "BrightCurrent Electric",
+      quote:
+        "I was worried about the price until I saw the results. My dispatchers are less stressed and we’re closing more jobs without hiring extra staff. Worth every penny.",
+      image: "/generated/image-professional-headshot-of-dmitri-antonov-.webp"
+    }
+  ]}
 />
 
-<CallToAction />
+<CallToAction
+  title="Smarter dispatching, higher revenue"
+  subtitle="See how top teams use Probook to drive more sales and happier technicians."
+  description="Ready to leave gut-feel dispatching behind? With Probook AI, you can assign the right tech for every job in secondsand watch your revenue climb. Start with a risk-free demo, enjoy full onboarding support from our team, and experience why our customers never look back."
+  imageSrc="/generated/image-a-cheerful-hvac-technician-in-an-office-.webp"
+  callsToAction={[
+    { href: '/book-demo', label: 'Book a demo', variant: 'primary' },
+    { href: '/contact', label: 'Talk to us', variant: 'secondary' }
+  ]}
+/>
+

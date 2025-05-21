@@ -35,139 +35,193 @@ Please update features according to the company's product offering. Do not remov
 
 	// Props
 	const {
-		title = "Simple, transparent pricing",
-		subtitle = "Choose the plan that works best for your needs",
-		tierNames = ["Starter", "Pro", "Enterprise"],
+		title = "Smarter dispatch. Higher profit.",
+		subtitle = "Plans designed for service teams who want AI-powered efficiency—choose the automation level that fits your operation.",
+		tierNames = ["Copilot", "Autopilot", "Enterprise"],
 		features = [
 			{
-				name: "Projects",
+				name: "AI-powered job & tech assignment",
 				tiers: {
-					Starter: "5",
-					Pro: "Unlimited",
-					Enterprise: "Unlimited"
-				}
-			},
-			{
-				name: "Team members",
-				tiers: {
-					Starter: "1",
-					Pro: "10",
-					Enterprise: "Unlimited"
-				}
-			},
-			{
-				name: "Storage",
-				tiers: {
-					Starter: "1GB",
-					Pro: "10GB",
-					Enterprise: "Unlimited"
-				}
-			},
-			{
-				name: "API access",
-				tiers: {
-					Starter: false,
-					Pro: true,
+					Copilot: true,
+					Autopilot: true,
 					Enterprise: true
 				}
 			},
 			{
-				name: "Custom domains",
+				name: "Fully automated board reshuffling",
 				tiers: {
-					Starter: false,
-					Pro: true,
+					Copilot: false,
+					Autopilot: true,
 					Enterprise: true
 				}
 			},
 			{
-				name: "Analytics",
+				name: "Real-time ServiceTitan integration",
 				tiers: {
-					Starter: "Basic",
-					Pro: "Advanced",
-					Enterprise: "Advanced"
+					Copilot: true,
+					Autopilot: true,
+					Enterprise: true
 				}
 			},
 			{
-				name: "Support response time",
+				name: "Tech/dispatch performance dashboards",
 				tiers: {
-					Starter: "24 hours",
-					Pro: "4 hours",
-					Enterprise: "1 hour"
+					Copilot: true,
+					Autopilot: true,
+					Enterprise: true
+				}
+			},
+			{
+				name: "Recommended dispatcher-to-tech ratio",
+				tiers: {
+					Copilot: "Up to 12:1",
+					Autopilot: "Up to 25:1",
+					Enterprise: "Custom"
+				}
+			},
+			{
+				name: "Automated tech/customer alerts",
+				tiers: {
+					Copilot: true,
+					Autopilot: true,
+					Enterprise: true
+				}
+			},
+			{
+				name: "Advanced workflow automations",
+				tiers: {
+					Copilot: false,
+					Autopilot: true,
+					Enterprise: true
+				}
+			},
+			{
+				name: "Custom integration & API access",
+				tiers: {
+					Copilot: false,
+					Autopilot: false,
+					Enterprise: true
 				}
 			},
 			{
 				name: "Dedicated account manager",
 				tiers: {
-					Starter: false,
-					Pro: false,
+					Copilot: false,
+					Autopilot: false,
 					Enterprise: true
 				}
 			},
 			{
-				name: "SLA",
+				name: "Multi-location/zone board support",
 				tiers: {
-					Starter: false,
-					Pro: false,
-					Enterprise: "99.9%"
+					Copilot: false,
+					Autopilot: "Optional",
+					Enterprise: true
+				}
+			},
+			{
+				name: "SLA (up-time & service agreements)",
+				tiers: {
+					Copilot: false,
+					Autopilot: "Optional",
+					Enterprise: true
+				}
+			},
+			{
+				name: "2-day in-person onboarding",
+				tiers: {
+					Copilot: true,
+					Autopilot: true,
+					Enterprise: true
+				}
+			},
+			{
+				name: "CEO-led onboarding support",
+				tiers: {
+					Copilot: true,
+					Autopilot: true,
+					Enterprise: true
+				}
+			},
+			{
+				name: "Ongoing optimization/strategy calls",
+				tiers: {
+					Copilot: "2 per week",
+					Autopilot: "2 per week",
+					Enterprise: "Custom"
+				}
+			},
+			{
+				name: "24/7 emergency support (3 min median response)",
+				tiers: {
+					Copilot: true,
+					Autopilot: true,
+					Enterprise: true
 				}
 			}
 		],
 		tiers = [
-			{
-				name: "Starter",
-				monthlyPrice: 9.99,
-				yearlyPrice: 7.99, // 20% savings
-				description: "Perfect for individuals and small projects",
-				features: [
-					"Up to 5 projects",
-					"Basic analytics",
-					"24-hour support response time",
-					"1GB storage"
-				],
-				cta: {
-					label: "Get started",
-					href: "/signup?plan=starter"
-				}
-			},
-			{
-				name: "Pro",
-				monthlyPrice: 29.99,
-				yearlyPrice: 23.99, // 20% savings
-				description: "For growing teams and businesses",
-				features: [
-					"Unlimited projects",
-					"Advanced analytics",
-					"4-hour support response time",
-					"10GB storage",
-					"Custom domains",
-					"Team collaboration tools"
-				],
-				cta: {
-					label: "Get started",
-					href: "/signup?plan=pro"
-				},
-				highlight: true
-			},
-			{
-				name: "Enterprise",
-				monthlyPrice: null,
-				yearlyPrice: null,
-				description: "For large organizations with specific needs",
-				features: [
-					"Everything in Pro",
-					"Dedicated account manager",
-					"1-hour support response time",
-					"Unlimited storage",
-					"Advanced security features",
-					"Custom integrations",
-					"99.9% uptime SLA"
-				],
-				cta: {
-					label: "Contact sales",
-					href: "/contact"
-				}
+		{
+			name: "Copilot",
+			monthlyPrice: 799,
+			yearlyPrice: 799 * 12 * 0.8 / 12, // 20% off for annual
+			description: "AI-assisted dispatch for teams who want to stay in control with powerful insight.",
+			features: [
+				"AI tech/job assignment suggestions",
+				"Full tech performance and geographic dashboards",
+				"Real-time ServiceTitan integration",
+				"Automated tech/customer alerts",
+				"2-day on-site onboarding",
+				"CEO onboarding support",
+				"Two weekly optimization calls",
+				"24/7 support (3-min median reply)"
+			],
+			cta: {
+				label: "Start with Copilot",
+				href: "/signup?plan=copilot"
 			}
-		]
+		},
+		{
+			name: "Autopilot",
+			monthlyPrice: 1499,
+			yearlyPrice: 1499 * 12 * 0.8 / 12, // 20% off for annual
+			description: "Full automation and real-time reshuffling for high-efficiency operations.",
+			features: [
+				"Everything in Copilot",
+				"Fully automated board reshuffling",
+				"Advanced workflow automations",
+				"Up to 25:1 dispatcher to tech ratio",
+				"Integrated proactive-care alerts",
+				"Live dashboards and call board",
+				"Twice-weekly ops strategy calls",
+				"CEO-led onboarding & training"
+			],
+			cta: {
+				label: "Upgrade to Autopilot",
+				href: "/signup?plan=autopilot"
+			},
+			highlight: true
+		},
+		{
+			name: "Enterprise",
+			monthlyPrice: null,
+			yearlyPrice: null,
+			description: "Custom automation, workflow, and support for multi-location leaders.",
+			features: [
+				"Everything in Autopilot",
+				"Custom dashboarding & analytics",
+				"Multi-location/zone support",
+				"Custom workflows/API integrations",
+				"Dedicated account manager",
+				"Custom SLAs and reporting",
+				"Scaled dispatcher training"
+			],
+			cta: {
+				label: "Contact sales",
+				href: "/contact"
+			}
+		}
+	]
 	}: {
 		title?: string;
 		subtitle?: string;

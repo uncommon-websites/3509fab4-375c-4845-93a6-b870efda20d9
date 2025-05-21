@@ -121,53 +121,64 @@
 	];
 
 	const employeeTestimonials = [
-		{
-			name: "Michael Chen",
-			position: "Senior Developer",
-			company: "Engineering Team",
-			quote:
-				"Working here has given me the opportunity to tackle challenging problems while maintaining a healthy work-life balance. The team culture is supportive and collaborative.",
-			image:
-				"https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=774&q=80"
-		},
-		{
-			name: "Priya Sharma",
-			position: "Product Designer",
-			company: "Design Team",
-			quote:
-				"The creative freedom and opportunity to influence product decisions makes this the best place I've ever worked. I'm constantly learning and growing.",
-			image:
-				"https://images.unsplash.com/photo-1534528741775-53994a69daeb?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=774&q=80"
-		},
-		{
-			name: "Marcus Johnson",
-			position: "Marketing Lead",
-			company: "Marketing Team",
-			quote:
-				"I joined three years ago and have grown tremendously. The leadership truly invests in your development and the work environment is both challenging and supportive.",
-			image:
-				"https://images.unsplash.com/photo-1531384441138-2736e62e0919?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=774&q=80"
-		}
-	];
+  {
+    name: "Sofia Ramirez",
+    position: "Customer Success Manager",
+    company: "Customer Experience",
+    quote:
+      "From my first day, I felt supported and respected. There’s real mentorship here, and everyone wants you to succeed. I love how much we celebrate each other’s wins.",
+    image: "/generated/image-a-professional-latina-woman-smiling-seat.webp"
+  },
+  {
+    name: "Jalen Brooks",
+    position: "Junior Software Engineer",
+    company: "Engineering",
+    quote:
+      "Growth is a given at Probook. I’ve learned so much my first year—it’s a place where any question is welcome and encouragement is everywhere.",
+    image: "/generated/image-a-young-black-man-junior-engineer-engage.webp"
+  },
+  {
+    name: "Dan Gallagher",
+    position: "Senior Product Lead",
+    company: "Product",
+    quote:
+      "The autonomy, the balance, the team spirit—it’s all here. People work hard, but there’s genuine trust and flexibility. Collaboration truly means something at Probook.",
+    image: "/generated/image-a-white-senior-product-leader-a-middle-a.webp"
+  }
+];
 
 	const processSteps = [
-		{
-			step: 1,
-			title: "Apply",
-			description:
-				"Submit your application through our careers portal with your resume and portfolio."
-		},
-		{
-			step: 2,
-			title: "Interview",
-			description: "Meet with our team to discuss your experience, skills, and career aspirations."
-		},
-		{
-			step: 3,
-			title: "Welcome aboard",
-			description: "Join our team and start your journey building the future with us."
-		}
-	];
+  {
+    step: 1,
+    title: "Apply online",
+    description:
+      "Send in your info and a quick note on why Probook excites you—no resume upload hoops.",
+  },
+  {
+    step: 2,
+    title: "Intro call",
+    description:
+      "Hop on a 30-minute call to chat about your background and answer your questions.",
+  },
+  {
+    step: 3,
+    title: "Skill assessment",
+    description:
+      "Show how you think through a practical, realistic work sample or technical challenge.",
+  },
+  {
+    step: 4,
+    title: "Meet the team",
+    description:
+      "Get to know your future teammates and see how we work, communicate, and support each other.",
+  },
+  {
+    step: 5,
+    title: "Decision",
+    description:
+      "We send you a clear answer quickly and with respect—no ghosting, no endless delays.",
+  },
+];
 
 	const values = [
 		{
@@ -191,8 +202,9 @@
 <!-- Hero Section -->
 
 <SecondaryHero
-	title="Join our team of innovators"
-	subtitle="We're looking for passionate people to help us build the future of digital experiences. Discover your next opportunity with us."
+	title="Change how work gets done"
+	subtitle="Where team-driven ideas transform home services"
+	imageSrc="/generated/image-a-modern-office-space-with-a-diverse-tea.webp"
 />
 
 <!-- Why Join Us Section -->

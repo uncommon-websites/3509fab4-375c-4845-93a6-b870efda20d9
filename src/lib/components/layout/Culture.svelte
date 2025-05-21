@@ -10,7 +10,28 @@
 	};
 
 	// Props
-	const { values = [] }: { values: Value[] } = $props();
+	const { values = [
+  {
+    title: "Real-world impact over hype",
+    description: "We solve actual problems for dispatchers and techs on the ground—making day-to-day operations smoother and more profitable, not just impressive on paper."
+  },
+  {
+    title: "Collaboration at every level",
+    description: "AI engineers partner directly with trades veterans to build solutions that work in the field, not just the lab. We share wins and own results together."
+  },
+  {
+    title: "Move fast. Learn faster.",
+    description: "Rapid iteration, constant feedback, and a bias for action mean we improve our product every week, guided by customers not just competitors."
+  },
+  {
+    title: "Authenticity and transparency",
+    description: "We’re honest about what works, take pride in clear communication, and welcome feedback from every member of our team and every company we support."
+  },
+  {
+    title: "Inclusion fuels innovation",
+    description: "We believe diverse voices and backgrounds make us smarter and our results stronger. Every team member has a seat at the table."
+  }
+]: { values: Value[] } = $props();
 
 	let cards: HTMLElement[] = $state([]);
 
