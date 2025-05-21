@@ -19,63 +19,66 @@
 <LogoScroller label="" generating />
 
 <Summary
-	generating
 	title="What we do"
-	text="Our technology delivers measurable results through secure, adaptable solutions that directly increase productivity and drive growth."
+	text="Probook AI uses artificial intelligence to optimize technician assignments for home services companies. Quickly boost sales, eliminate guesswork, and increase efficiency—without changing your current systems."
 />
 
 <Testimonials
-	generating
 	testimonials={[
 		{
-			name: "Jane Smith",
-			position: "CTO",
-			company: "Tech Innovations",
+			name: "Walter Greene",
+			position: "Operations Manager",
+			company: "Northstar HVAC",
 			quote:
-				"Their cutting-edge automation boosted our productivity by 35%.\nThe intuitive interface reduced training time and improved team adoption.",
-			image:
-				"https://images.unsplash.com/photo-1571513722275-4b41940f54b8?q=80&w=3687&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
+				"We shaved two hours off every dispatch shift with Probook. Our techs get out the door faster and we haven’t missed a single high-value call since making the switch.",
+			image: "/generated/image-a-middle-aged-man-in-an-hvac-service-off.webp"
 		},
 		{
-			name: "John Doe",
-			position: "Director of Operations",
-			company: "Global Solutions",
+			name: "Maria Santiago",
+			position: "Lead Dispatcher",
+			company: "FlowMaster Plumbing",
 			quote:
-				"Their robust security protocols gave us confidence in handling sensitive data.\nThe 24/7 support team resolved issues within hours, not days.",
-			image:
-				"https://images.unsplash.com/photo-1600603405959-6d623e92445c?q=80&w=3687&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
+				"Before Probook, I would double-book jobs at least once a week. Now, our calendar is always accurate. I spend less time fixing errors and more time helping customers.",
+			image: "/generated/image-a-woman-in-a-plumbing-company-office-wea.webp"
 		},
 		{
-			name: "Sarah Johnson",
-			position: "Product Manager",
-			company: "Future Systems",
+			name: "Russell Pierson",
+			position: "Owner",
+			company: "Pierson Sewer Solutions",
 			quote:
-				"The scalable platform grew seamlessly with our business needs.\nTheir customization options allowed us to tailor solutions perfectly to our workflows.",
-			image:
-				"https://images.unsplash.com/photo-1531123897727-8f129e1688ce?q=80&w=3687&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
+				"Probook’s board showed me which jobs lose us money. It paid for itself within the first month by keeping our best crews busy and cutting callbacks by 30%.",
+			image: "/generated/image-an-older-man-at-a-sewer-services-company.webp"
 		}
 	]}
 />
 
 <Features
-	generating
-	title="Features"
-	subtitle="Some features"
+	title="Features that set Probook apart"
+	subtitle="The essentials your team needs to streamline dispatching, boost sales, and handle more calls—confidently."
 	features={[
 		{
-			title: "Streamlined Workflows",
-			description:
-				"Automate repetitive tasks and connect systems to improve productivity with our industry-leading 87% time savings."
+			title: "AI-powered technician assignments",
+			description: "Assign the right tech to every call based on data, not guesswork." 
 		},
 		{
-			title: "Data Analysis",
-			description:
-				"Extract meaningful insights from your data with powerful analytical tools backed by proprietary AI algorithms that are 3x more accurate than competitors."
+			title: "ServiceTitan integration in real time",
+			description: "Every call, update, and job syncs instantly—no delays or double entry."
 		},
 		{
-			title: "Secure Collaboration",
-			description:
-				"Work together seamlessly while maintaining strict data privacy standards with our zero-knowledge architecture and military-grade encryption."
+			title: "Copilot and Autopilot automation",
+			description: "Choose flexible support or full AI automation and scale to over 20 techs per dispatcher." 
+		},
+		{
+			title: "Dashboards and actionable insights",
+			description: "See performance, geography, and trends to drive more revenue every week." 
+		},
+		{
+			title: "Fast onboarding and ongoing support",
+			description: "2-day launch, CEO-led training, weekly reviews, and 24/7 help when you need it." 
+		},
+		{
+			title: "Proven results for service companies",
+			description: "Customers report 12% higher sales, 19% more flips, and a 20:1 tech-dispatcher ratio." 
 		}
 	]}
 />
